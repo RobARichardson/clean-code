@@ -1,6 +1,6 @@
 # Chapter 8: Boundaries
 
-Practices & techniques to keep the boundaries of our software clean when integration third-party packages and APIs.
+Practices & techniques to keep the boundaries of our software clean when integrating with third-party packages and APIs.
 
 ## Using Third-Party Code
 
