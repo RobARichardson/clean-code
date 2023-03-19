@@ -4,4 +4,4 @@ description: by Robert C. Martin aka Uncle Bob
 
 # Clean Code
 
-Notes from Clean Code by Uncle Bob
+{% embed url="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM" %}
