@@ -16,7 +16,7 @@ It takes only a few seconds of thought to explain more of your intent in code. &
 
 In many cases it's simply a matter of creating a function that says the same thing as the comment you want to write.
 
-## 😀Good Comments
+## ✅ Good Comments
 
 ### Legal Comments
 
@@ -52,7 +52,7 @@ These comments amplify the importance of something that may otherwise seem incon
 
 If you're writing a public API, then you should certainly write good docs for it.
 
-## 🙁 Bad Comments
+## ❌ Bad Comments
 
 ### Mumbling
 
