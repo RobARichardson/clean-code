@@ -3,6 +3,7 @@
 * [Clean Code](README.md)
 * [Chapter 1: Clean Code](chapter-1-clean-code.md)
 * [Chapter 2: Meaningful Names](chapter-2-meaningful-names.md)
+* [Chapter 3: Functions](chapter-3-functions.md)
 * [Chapter 4: Comments](chapter-4-comments.md)
 * [Chapter 7: Error Handling](chapter-7-error-handling.md)
 * [Chapter 8: Boundaries](chapter-8-boundaries.md)
