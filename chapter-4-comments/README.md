@@ -16,5 +16,11 @@ It takes only a few seconds of thought to explain more of your intent in code. &
 
 In many cases it's simply a matter of creating a function that says the same thing as the comment you want to write.
 
+{% content-ref url="good-comments.md" %}
+[good-comments.md](good-comments.md)
+{% endcontent-ref %}
 
+{% content-ref url="bad-comments.md" %}
+[bad-comments.md](bad-comments.md)
+{% endcontent-ref %}
 
