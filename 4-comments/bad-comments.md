@@ -1,4 +1,4 @@
-# ❌ Bad Comments
+# ⛔ Bad Comments
 
 ### Mumbling
 
