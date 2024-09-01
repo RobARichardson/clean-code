@@ -18,19 +18,19 @@
 
 ## Monadic Functions: Single Argument
 
-#### Common Forms
+### Common Forms
 
 * Ask a question about the argument
 * Operate on the argument, transforming it into something else and _returning_ it.
 * Events: An input with no output. Used to alter the state of the system.
   * It should be obvious to the reader that this is an event through names & contexts.
 
-#### Flag Arguments
+### Flag Arguments
 
 * Flag arguments are ugly. Passing a Boolean into a function is a terrible practice.
 * Typically this is a sign that a function should be split in two.
 
-### Dyadic Functions: Two Arguments
+## Dyadic Functions: Two Arguments
 
 * A function with two arguments is harder to understand than a monadic function.
 * They're not evil, but they come at a cost.&#x20;
