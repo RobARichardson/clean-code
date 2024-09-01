@@ -3,7 +3,22 @@
 * [Clean Code](README.md)
 * [Chapter 1: Clean Code](chapter-1-clean-code.md)
 * [Chapter 2: Meaningful Names](chapter-2-meaningful-names.md)
-* [Chapter 3: Functions](chapter-3-functions.md)
+
+## 3: Functions
+
+* [Small!](3-functions/small.md)
+* [Do One Thing](3-functions/do-one-thing.md)
+* [One Level of Abstraction per Function](3-functions/one-level-of-abstraction-per-function.md)
+* [Switch Statements](3-functions/switch-statements.md)
+* [Use Descriptive Names](3-functions/use-descriptive-names.md)
+* [Function Arguments](3-functions/function-arguments.md)
+* [Have No Side Effects](3-functions/have-no-side-effects.md)
+* [Command Query Separation](3-functions/command-query-separation.md)
+* [Prefer Exceptions to Error Codes](3-functions/prefer-exceptions-to-error-codes.md)
+* [Don't Repeat Yourself](3-functions/dont-repeat-yourself.md)
+* [Structured Programming](3-functions/structured-programming.md)
+* [How to Write Functions Like This](3-functions/how-to-write-functions-like-this.md)
+* [Conclusion](3-functions/conclusion.md)
 
 ## 4: Comments
 
