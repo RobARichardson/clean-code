@@ -18,8 +18,6 @@
   * [How to Write Functions Like This](3-functions/how-to-write-functions-like-this.md)
   * [Conclusion](3-functions/conclusion.md)
 * [4: Comments](4-comments/README.md)
-  * [👎 Don't Make Up for Bad Code](4-comments/dont-make-up-for-bad-code.md)
-  * [👨‍💻 Explain Yourself in Code](4-comments/explain-yourself-in-code.md)
   * [✅ Good Comments](4-comments/good-comments.md)
   * [⛔ Bad Comments](4-comments/bad-comments.md)
 * [Chapter 6: Objects and Data Structures](chapter-6-objects-and-data-structures.md)
