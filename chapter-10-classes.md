@@ -1,3 +1,7 @@
+---
+icon: file-binary
+---
+
 # Chapter 10: Classes
 
 ## Class Organization
@@ -19,8 +23,8 @@
 ## Classes Should be Small
 
 * First Rule: Classes should be small! Second Rule: They should be smaller than that.
-* Function size is measured by counting _lines_. With classes, we count _responsibilities._&#x20;
-* Class names should describe the responsibilities it fulfills.&#x20;
+* Function size is measured by counting _lines_. With classes, we count _responsibilities._
+* Class names should describe the responsibilities it fulfills.
   * If this is difficult, the class may be too large.
   * The more ambiguous the class name, the more likely it has too many responsibilities.
   * Avoid weasel words: `Processor`, `Manager`, or `Super`
@@ -32,7 +36,7 @@ SRP: A class or module should have one, and only one, _reason to change._
 {% endhint %}
 
 * Getting Software to work and making software clean are two very different activities.
-  * Too many of us think we are done once the program works.&#x20;
+  * Too many of us think we are done once the program works.
   * We fail to switch to the other concern or organization & cleanliness - breaking down overstuffed classes into decoupled units that follow the SRP.
 * Do a large number of small, single purpose classes make it more difficult to understand the bigger picture?
 * Would we rather have tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do we want several large junk drawers?
@@ -57,7 +61,7 @@ SRP: A class or module should have one, and only one, _reason to change._
 
 ## Organizing for Change
 
-* We want to structure our systems so that we muck with as little as possible when we update them with new or modified features.&#x20;
+* We want to structure our systems so that we muck with as little as possible when we update them with new or modified features.
   * Small cohesive classes help us do this.
 * In an ideal system, we incorporate new features by extending the system, not by making modifications to existing code.
 
@@ -70,8 +74,8 @@ Open Closed Principle: Classes should be open for extension but closed for modif
 * A client class depending on concrete details is at risk when details change.
   * Interfaces & abstract classes help isolate the impact of those details.
 * Dependencies on concrete details create challenges for testing our system.
-  * A system that is decoupled enough to be tested will also be more flexible and promote more reuse.&#x20;
-* A lack of coupling means that elements of our system are better isolated from each other and from change.&#x20;
+  * A system that is decoupled enough to be tested will also be more flexible and promote more reuse.
+* A lack of coupling means that elements of our system are better isolated from each other and from change.
   * Isolation makes it easier to understand each element of the system.
 * Minimizing coupling helps us adhere to the **Dependency Inversion Principle (DIP)**.
 

@@ -12,7 +12,8 @@
 
 ## We've All Done It
 
-* We've all looked at the mess we've made and chosen to leave it for another day. We've all said we'd go back & clean it up later.
+* We've all looked at the mess we've made and chosen to leave it for another day.&#x20;
+* We've all said we'd go back & clean it up later.
 * LeBlanc's Law: "Later equals never"
 
 {% embed url="https://on-agile.blogspot.com/2007/04/why-you-wont-fix-it-later.html" %}

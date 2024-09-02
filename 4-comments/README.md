@@ -1,4 +1,4 @@
-# 4: Comments
+# 💬 4: Comments
 
 ## Comments Don't Make Up for Bad Code
 

@@ -1,3 +1,7 @@
+---
+icon: shapes
+---
+
 # Chapter 8: Boundaries
 
 Practices & techniques to keep the boundaries of our software clean when integrating with third-party packages and APIs.
@@ -12,7 +16,7 @@ Practices & techniques to keep the boundaries of our software clean when integra
 ## Exploring & Learning Boundaries
 
 1. Third-Party code helps us get more functionality delivered in less time.
-2. Where do we start when we want to utilize a third-party package?&#x20;
+2. Where do we start when we want to utilize a third-party package?
 3. Learning & integrating third-party code is hard.
 4. While it's not our job to test the third-party code, it may be in our best interest to write tests for the code we use.
 

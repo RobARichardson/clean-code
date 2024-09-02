@@ -1,3 +1,7 @@
+---
+icon: vial-virus
+---
+
 # Chapter 9: Unit tests
 
 The Agile & TDD movements have encouraged many programmers to write automated tests, but in the mad rush to add testing to our discipline, many programmers have missed some of themore subtle, and important, points of writing good tests.
@@ -28,8 +32,8 @@ The Agile & TDD movements have encouraged many programmers to write automated te
 
 ## Clean Tests
 
-1. What makes a clean test?  Readability, Readability, Readability.
-2. What makes tests readable?  Clarity, Simplicity, and Density of Expression.
+1. What makes a clean test? Readability, Readability, Readability.
+2. What makes tests readable? Clarity, Simplicity, and Density of Expression.
 3. Anyone who reads a test should be able to work out what they do very quickly without being misled or overwhelmed by details.
 
 ### Domain-Specific Testing Language
@@ -43,7 +47,7 @@ The Agile & TDD movements have encouraged many programmers to write automated te
 
 ## One Assert per Test
 
-1. While the single assert rule is a good guideline, don't be afraid to put more than one assert in a test.&#x20;
+1. While the single assert rule is a good guideline, don't be afraid to put more than one assert in a test.
 2. Instead, the number of asserts in a test ought to be minimized.
 3. **Alternative: Single Concept per Test**
    1. Test a single concept in each test function.
@@ -53,7 +57,7 @@ The Agile & TDD movements have encouraged many programmers to write automated te
 
 Clean tests follow 5 other rules:
 
-### Fast&#x20;
+### Fast
 
 Tests should be fast. They should run quickly.
 
