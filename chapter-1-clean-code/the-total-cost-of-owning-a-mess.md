@@ -1,37 +1,4 @@
-# Chapter 1: Clean Code
-
-## There Will Be Code
-
-* Does clean code matter?
-* Claims that code will soon be generated instead of written are nonsense.
-* We will never be rid of code, because code represents details of the requirements.
-  * At some level those details cannot be ignored or abstracted; they must be specified.
-  * Specifying requirements in such detail that a machine can execute them is _programming_.
-
-{% hint style="info" %}
-Code is the language in which we ultimately express the requirements!
-{% endhint %}
-
-## Bad Code
-
-{% hint style="info" %}
-**Wading**: The experience of being significantly impeded by bad code.
-{% endhint %}
-
-### Why do we write bad code?
-
-* Were you trying to go too fast? Were you in a rush?
-* Perhaps you felt that you didn't have time to do a good job; your boss would be angry if you took the time to clean up your code.
-* Perhaps you were tired of working on this program and wanted it to be over.
-
-### We've All Done It
-
-* We've all looked at the mess we've made and chosen to leave it for another day. We've all said we'd go back & clean it up later.&#x20;
-* LeBlanc's Law: "Later equals never"
-
-{% embed url="http://on-agile.blogspot.com/2007/04/why-you-wont-fix-it-later.html" %}
-
-## The Total Cost of Owning a Mess
+# 😑 The Total Cost of Owning a Mess
 
 * As a mess builds, the productivity of the team continues to decrease.
 * As productivity decreases, management does the only thing they can.
@@ -46,7 +13,7 @@ The circle of life:
 * Developers working in a bad code base eventually demand a redesign.
 * Management reluctantly agrees due to poor productivity.
 * A [tiger team](https://en.wikipedia.org/wiki/Tiger\_team) is selected to start over on a green-field project.
-* The two teams are in a race to rebuild the new system while new features are continually added to the existing system.  The race goes on for a long time (many years).
+* The two teams are in a race to rebuild the new system while new features are continually added to the existing system. The race goes on for a long time (many years).
 * When it's done, the original members of the tiger team are gone and the new system needs another redesign because it's a mess (again).
 
 {% hint style="success" %}
@@ -104,7 +71,7 @@ Code-Sense: Being able to identify bad code AND knowing what to do about it.
 
 ### "Big" Dave Thomas
 
-> Clean code can be read, and enhanced by a developer other than its original author. It has unit & acceptance tests. It has meaninful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which explicitly defined and provides clear & minimal API. Code should be literate since depending on the language, not all necessary information can be expressed clearly in code alone.
+> Clean code can be read, and enhanced by a developer other than its original author. It has unit & acceptance tests. It has meaningful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which explicitly defined and provides clear & minimal API. Code should be literate since depending on the language, not all necessary information can be expressed clearly in code alone.
 
 ### Michael Feathers
 
@@ -117,14 +84,3 @@ Code-Sense: Being able to identify bad code AND knowing what to do about it.
 ### Ward Cunningham
 
 > You know you're working with clean code when each routine you read turns out to be pretty much what you expected. You can call it beautiful code when the code also makes it look like the language was made for the problem.
-
-## The Boy Scout Rule
-
-{% hint style="info" %}
-If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
-{% endhint %}
-
-* It's not enough to write the code well. Code must be _kept clean_ over time.
-* Code rot and degradation happens as time passes.  Messes build quietly.
-* We must take an active role in preventing that degradation.
-

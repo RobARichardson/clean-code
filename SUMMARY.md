@@ -1,7 +1,15 @@
 # Table of contents
 
 * [Clean Code](README.md)
-* [Chapter 1: Clean Code](chapter-1-clean-code.md)
+* [1: Clean Code](chapter-1-clean-code/README.md)
+  * [💻 There Will Be Code](chapter-1-clean-code/there-will-be-code.md)
+  * [🤢 Bad Code](chapter-1-clean-code/bad-code.md)
+  * [😑 The Total Cost of Owning a Mess](chapter-1-clean-code/the-total-cost-of-owning-a-mess.md)
+  * [🏫 Schools of Thought](chapter-1-clean-code/schools-of-thought.md)
+  * [We are Authors](chapter-1-clean-code/we-are-authors.md)
+  * [The Boy Scout Rule](chapter-1-clean-code/the-boy-scout-rule.md)
+  * [Prequel and Principles](chapter-1-clean-code/prequel-and-principles.md)
+  * [Conclusion](chapter-1-clean-code/conclusion.md)
 * [Chapter 2: Meaningful Names](chapter-2-meaningful-names.md)
 * [3: Functions](3-functions/README.md)
   * [Small!](3-functions/small.md)
