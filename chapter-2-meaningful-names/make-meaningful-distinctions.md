@@ -1,4 +1,4 @@
-# 🤔 Make Meaningful Distinctions
+# Make Meaningful Distinctions
 
 {% hint style="info" %}
 Distinguish names in such a way that the reader knows what the differences offer.

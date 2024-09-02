@@ -1,4 +1,4 @@
-# 😑 The Total Cost of Owning a Mess
+# The Total Cost of Owning a Mess
 
 * As a mess builds, the productivity of the team continues to decrease.
 * As productivity decreases, management does the only thing they can.

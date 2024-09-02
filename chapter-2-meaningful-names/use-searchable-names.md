@@ -1,4 +1,4 @@
-# 🔍 Use Searchable Names
+# Use Searchable Names
 
 Longer names trump shorter names. Any searchable name trumps a constant in code.
 

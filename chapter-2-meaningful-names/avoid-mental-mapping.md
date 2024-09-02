@@ -1,4 +1,4 @@
-# 🗺️ Avoid Mental Mapping
+# Avoid Mental Mapping
 
 Readers shouldn't have to mentally translate your names into other names they already know.
 

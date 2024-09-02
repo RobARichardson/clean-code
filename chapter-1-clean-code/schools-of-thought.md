@@ -1,2 +1,2 @@
-# 🏫 Schools of Thought
+# Schools of Thought
 

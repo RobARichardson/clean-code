@@ -1,4 +1,4 @@
-# 🧠 Use Intention-Revealing Names
+# Use Intention-Revealing Names
 
 Choosing good names takes time, but saves more than it takes.
 

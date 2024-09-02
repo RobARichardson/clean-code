@@ -1,4 +1,4 @@
-# 💻 There Will Be Code
+# There Will Be Code
 
 ## Does clean code matter?
 

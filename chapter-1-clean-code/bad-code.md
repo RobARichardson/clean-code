@@ -1,4 +1,4 @@
-# 🤢 Bad Code
+# Bad Code
 
 {% hint style="info" %}
 **Wading**: The experience of being significantly impeded by bad code.

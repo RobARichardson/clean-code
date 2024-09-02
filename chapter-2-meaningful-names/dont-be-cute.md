@@ -1,4 +1,4 @@
-# 💅 Don’t Be Cute
+# Don’t Be Cute
 
 ## Choose clarity over entertainment value.
 
