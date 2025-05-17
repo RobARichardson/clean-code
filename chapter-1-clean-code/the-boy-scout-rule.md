@@ -1,7 +1,3 @@
----
-icon: house-flag
----
-
 # The Boy Scout Rule
 
 {% hint style="info" %}
