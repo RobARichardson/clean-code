@@ -1,6 +1,6 @@
 ---
 description: There's a reason we keep our variables private.
-icon: binary-circle-check
+icon: memo-circle-check
 ---
 
 # 6: Objects and Data Structures
