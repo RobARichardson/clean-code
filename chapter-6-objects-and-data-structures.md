@@ -1,8 +1,11 @@
 ---
 description: There's a reason we keep our variables private.
+icon: binary-circle-check
 ---
 
-# Chapter 6: Objects and Data Structures
+# 6: Objects and Data Structures
+
+
 
 {% hint style="warning" %}
 Why do so many programmers automatically add getters & setters to their objects, exposing private variables as if they were public?
@@ -42,7 +45,7 @@ In complex systems, there will be situations where one is more appropriate than 
 ## The Law of Demeter (Talk to friends, not to strangers)
 
 _A module should not know about the innards of the objects it manipulates_\
-[https://en.wikipedia.org/wiki/Law\_of\_Demeter](https://en.wikipedia.org/wiki/Law\_of\_Demeter)
+[https://en.wikipedia.org/wiki/Law\_of\_Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
 #### A method _f_ of class _C_ should only call the following methods:
 
@@ -52,7 +55,7 @@ _A module should not know about the innards of the objects it manipulates_\
 * An object held in an instance variable of `C`
 
 {% hint style="danger" %}
-The method should not invoke methods of an object returned by another method.&#x20;
+The method should not invoke methods of an object returned by another method.
 {% endhint %}
 
 For many modern object oriented languages that use a dot as field identifier, the law can be stated simply as "use only one dot".

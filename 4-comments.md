@@ -1,4 +1,8 @@
-# 💬 4: Comments
+---
+icon: message-lines
+---
+
+# 4: Comments
 
 ## Comments Don't Make Up for Bad Code
 

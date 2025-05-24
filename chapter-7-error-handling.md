@@ -1,7 +1,7 @@
 ---
 description: Coming soon...
-icon: circle-exclamation
+icon: triangle-exclamation
 ---
 
-# Chapter 7: Error Handling
+# 7: Error Handling
 

@@ -1,15 +1,15 @@
 ---
-icon: vial-virus
+icon: vial
 ---
 
-# Chapter 9: Unit tests
+# 9: Unit tests
 
 The Agile & TDD movements have encouraged many programmers to write automated tests, but in the mad rush to add testing to our discipline, many programmers have missed some of themore subtle, and important, points of writing good tests.
 
 ## The Three Laws of TDD
 
 1. You may not write production code until you have written a failing unit test.
-2. You may not write more of a unit test than is suficient to fail, andnot compiling is failing.
+2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
 3. Third Law: You may not write more production code than is sufficient to pass the currently failing test.
 
 ## Keeping Tests Clean
