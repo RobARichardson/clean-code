@@ -19,3 +19,4 @@
 * [8: Boundaries](8-boundaries.md)
 * [9: Unit tests](9-unit-tests.md)
 * [10: Classes](10-classes.md)
+* [12: Emergence](12-emergence.md)
