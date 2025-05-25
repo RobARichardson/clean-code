@@ -6,13 +6,9 @@ icon: text-size
 
 ## When people look under the hood of our software...
 
-* We want them to be impressed with the neatness, consistency, and attention to detail that they perceive.
-* We want their eyebrows to rise as they scroll through modules.
-* We want them to perceive that _**Professionals**_ have been at work.
+We want them to be impressed with the neatness, consistency, and attention to detail that they perceive. We want their eyebrows to rise as they scroll through modules. We want them to perceive that _**Professionals**_ have been at work.
 
-{% hint style="danger" %}
-**If they see a scrambled mass of code that looks like it was written by a bevy of drunken sailors, they will assume that the same inattention to detail pervades every other aspect of the project.**
-{% endhint %}
+If they see a scrambled mass of code that looks like it was written by a bevy of drunken sailors, they will assume that the same inattention to detail pervades every other aspect of the project.
 
 ## Purpose of Formatting
 
