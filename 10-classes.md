@@ -2,7 +2,7 @@
 icon: file-binary
 ---
 
-# Chapter 10: Classes
+# 10: Classes
 
 ## Class Organization
 
@@ -14,7 +14,7 @@ icon: file-binary
 2. Functions
    1. Ordering should follow the ordering of variables.
 
-## Encapsulation
+### Encapsulation
 
 * Utility functions should typically be private, but we're not fanatic about it.
 * Sometimes a variable or utility function needs to be protected so it can be accessed by a test. If a test in the same package needs to call a function or access a variable, we'll make it protected or package (internal) scope.
@@ -29,7 +29,7 @@ icon: file-binary
   * The more ambiguous the class name, the more likely it has too many responsibilities.
   * Avoid weasel words: `Processor`, `Manager`, or `Super`
 
-## Single Responsibility Principle
+### Single Responsibility Principle
 
 {% hint style="info" %}
 SRP: A class or module should have one, and only one, _reason to change._
@@ -42,19 +42,19 @@ SRP: A class or module should have one, and only one, _reason to change._
 * Would we rather have tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do we want several large junk drawers?
 * The primary goal in managing complexity is to organize it so that a developer knows where to look to find things.
 
-### Summary
+#### Summary
 
 * We want our systems to be composed of many small classes.
 * Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
 
-## Cohesion
+### Cohesion
 
 * Classes should have a small number of instance variables.
 * Each of the methods should manipulate one or more of those variables.
   * A class in which each variable is used be each method is maximally cohesive, but it's not advisable nor possible to achieve this fully.
 * When cohesion is high, methods and variables of the class are co-dependent.
 
-## Maintaining Cohesion Results in Many Small Classes
+### Maintaining Cohesion Results in Many Small Classes
 
 * When classes lose cohesion, split them!
 * Breaking large functions into many smaller functions often gives us the opportunity to the code into several smaller classes.
@@ -69,7 +69,7 @@ SRP: A class or module should have one, and only one, _reason to change._
 Open Closed Principle: Classes should be open for extension but closed for modification.
 {% endhint %}
 
-## Isolating from Change
+### Isolating from Change
 
 * A client class depending on concrete details is at risk when details change.
   * Interfaces & abstract classes help isolate the impact of those details.
