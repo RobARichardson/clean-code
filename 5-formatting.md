@@ -11,7 +11,7 @@ icon: text-size
 * We want them to perceive that _**Professionals**_ have been at work.
 
 {% hint style="danger" %}
-If they see a scrambled mass of code that looks like it was written by a bevy of drunken sailors, they will assume that the same inattention to detail pervades every other aspect of the project.
+**If they see a scrambled mass of code that looks like it was written by a bevy of drunken sailors, they will assume that the same inattention to detail pervades every other aspect of the project.**
 {% endhint %}
 
 ## Purpose of Formatting
@@ -83,5 +83,33 @@ We expect low-level details to come last. This allows us to skip the module, get
 
 ## Horizontal Formatting
 
+We should strive to keep our lines short. Lines beyond 120 characters is pushing it.
 
+Wide monitors have reduced the need for scrolling.
 
+### Horizontal Openness and Density
+
+Horizontal white space is used to associate things that are strongly related and disassociate the weakly related.
+
+* Assignment Statements: Use spaces around the assignment operator to make it stand out. For example, `const bigCat: Cat = new Cat();`.
+* Function names and parentheses: Keep the function name and the opening parenthesis together without a space to emphasize their close relationship. For example, `function getFood(): void;`.
+* Arguments in function calls: Separate arguments with spaces after the commas to make them easier to read. For example, `cookDinner(apple, curry, pork);`.
+* Operators and expressions: Use spaces around operators to clarify their precedence. High-precedence operators (like multiplication `*`) can be kept closer together than low-precedence operators (like addition `+`).
+
+### Horizontal Alignment
+
+Horizontal alignment of class member declarations and assignments was common in the past. Nowadays, it's not useful and a sign a class is too large with too many members.
+
+### Indentation
+
+Indentation provides visibility to the hierarchy of scopes within a file.  Classes, methods, blocks, loops, etc.  Our eyes can rapidly discern the structure of an indented file - variables, constructors, accessors, methods. Programmers rely heavily on this indentation scheme.
+
+### Breaking Indentation
+
+It's sometimes tempting to break the indentation rule for short if statements, while loops, or functions. We should avoid this most of the time, keeping the indentation helps with readability.
+
+## Team Rules
+
+A team of developers should agree upon a single formatting style, and then every member of that team should use that style. We want the software to have a consistent style.  We don't want it to appear to have been written by a bunch of disagreeing individuals.
+
+A good software system is composed of a set of documents that read nicely. They need to have a consistent and smooth style.
